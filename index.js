@@ -1,0 +1,3 @@
+mounsein(){
+    document.getElementById
+}
