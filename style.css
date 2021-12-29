@@ -13,13 +13,13 @@ header {
   display: flex;
   align-content: flex-end;
   align-items: center;
-  background-color: #f1f3f4;
   justify-content: space-between;
 }
 #left-header {
   padding-left: 20px;
 }
 #right-header {
+  display: flex;
   justify-content: flex-end;
   align-content: center;
   align-items: center;
@@ -34,9 +34,11 @@ a {
   font-family: arial, sans-serif;
   font-size: 14px;
 }
+
 .material-icons {
   margin: 20px 10px;
 }
+
 #search-bar {
   display: flex;
   flex-direction: column;
